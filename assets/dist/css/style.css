@@ -82,4 +82,29 @@ body {
     padding-right: 22%;
     font-size: 1.1rem;
     font-weight: 400;
+    margin-bottom: 100px;
+}
+
+/* third section starting */
+
+.third-section {
+    display: flex;
+    gap: 50px;
+    flex-wrap: wrap;
+}
+.image-resolution {
+    flex: 1 1 300px;
+}
+.third-section img{
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    transition: 0.1s ease-out;
+}
+.third-section img:hover {
+    transform: scale(1.1) ;
+}
+.third-section h6{
+    text-align: center;
+    padding-bottom: 10px;
 }
