@@ -1,6 +1,7 @@
 body {
    
 }
+/* nav section */
 
 .btn-teal {
     color: #fff;
@@ -31,6 +32,10 @@ body {
     font-weight: 700;
     letter-spacing: .15em;
     text-transform: uppercase;
+
+    /* nav section ended */
+
+    /* banner section started */
 }
 .bg-gradient-primary-to-secondary {
     background-color: #0061f2;
@@ -60,15 +65,16 @@ body {
 .only-hover:hover {
     text-decoration: underline;
 }
-
+/* used some nav section classess to the banner section */
 /*banner section end*/
+
+/* second section */
 
 .alignment-section {
     text-align: center;
     margin-top: 100px;
 }
 .for-padd {
-    /* border-radius: 0%; */
     background-color: lightblue;
     font-size: 75%;
     font-weight: 400;
@@ -88,6 +94,7 @@ body {
 /* third section starting */
 
 .third-section {
+    margin-bottom: 200px;
     display: flex;
     gap: 50px;
     flex-wrap: wrap;
@@ -98,8 +105,10 @@ body {
 .third-section img{
     width: 100%;
     height: 200px;
+    border-radius: 0.5rem!important;
     object-fit: cover;
     transition: 0.1s ease-out;
+    overflow: hidden;
 }
 .third-section img:hover {
     transform: scale(1.1) ;
@@ -107,4 +116,52 @@ body {
 .third-section h6{
     text-align: center;
     padding-bottom: 10px;
+}
+/* ended third section */
+
+/* fourth section started */
+.fourth-section {
+    position: relative;
+    background-color: #eff3f9!important;
+    padding-top: 30px;
+}
+.txt-alignment {
+    padding-left: 22%;
+    padding-right: 22%;
+    font-size: 1.3rem;
+    font-weight: 330;
+   
+}
+.tbl-specification {
+    display: flex;
+    /* justify-content: space-around; */
+    gap: 30px;
+    flex-wrap: wrap;
+}
+.table-resolution {
+    flex: 1 1 200px;
+    /* align-content: flex-start; */
+}
+.table-resolution table {
+    
+   width:300px;
+}
+.tbl-specification tr {
+    background-color: white;
+}
+.blog-page {
+    position: absolute;
+    top: 610px;
+    margin-left: 380px;
+}
+.all-table{
+    margin-top: 100px;
+}
+/* started sixth section */
+.sixth-section {
+    background-color: #eff3f9!important;
+}
+.heading-size {
+    font-size: 1.4rem;
+    padding-top: 30px;
 }
