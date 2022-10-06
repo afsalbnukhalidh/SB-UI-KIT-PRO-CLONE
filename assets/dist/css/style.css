@@ -160,8 +160,42 @@ body {
 /* started sixth section */
 .sixth-section {
     background-color: #eff3f9!important;
+    padding-bottom: 100px;
+    padding-top:20px;
 }
 .heading-size {
     font-size: 1.4rem;
     padding-top: 30px;
 }
+.sixth-section h1 {
+    text-align: center;
+    font-weight: 700;
+    color: #c5ccd6!important;
+}
+.letter-rem {
+    font-size: 1.1rem;
+    /* font-weight: 500; */
+    line-height: 1.2;
+    text-align: center;
+}
+.para-alignment{
+    text-align: center;
+    /* margin-bottom: 0.5rem!important; */
+    font-weight: 400;
+    font-size: 1.2rem;
+    line-height: 1.5;
+    color: #687281;;
+}
+.sixth-section .btn {
+    font-size: 1rem;
+    padding: 0.8rem;
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+   margin-top: 50px;
+    /* text-align: center; */
+}
+/* .sixth-section button {
+   margin-left: 40%;
+   margin-top: 50px;
+} */
